@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1.text-shadow {
+    text-shadow: 2px 2px 4px black;
+}
+
+h1.text-keep-newlines {
+    white-space: pre-line;
+}
