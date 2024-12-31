@@ -31,7 +31,7 @@ A React+Vite+Tailwind application serving as the main site for Matt Miling.
 
 # Deploy
 
-1. Create a deploy-env.sh script with a single line that sets the `AWS_CF` variable:
+1. Create a deploy-env.sh script with a single line that sets the `AWS_CF_DIST_ID` variable with the 14-character cloudfront distribution ID, then source it:
 
    ```
    source deploy-env.sh
