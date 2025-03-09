@@ -17,10 +17,10 @@ A React+Vite+Tailwind application serving as the main site for Matt Miling.
 
 # Development
 
-1. Build and Run:
+1. Run development to allow code updates to refresh page automatically:
 
    ```
-   npm run build && npm run preview
+   npm run dev
    ```
 
 2. Run the tailwind observer:

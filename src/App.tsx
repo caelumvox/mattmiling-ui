@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/Navigation';
-import Splash from './components/Splash';
-import About from './components/About';
+import Splash from './pages/Splash';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Splash />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
         </Routes>
 
       </BrowserRouter>

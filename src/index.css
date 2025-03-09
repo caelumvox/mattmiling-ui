@@ -9,3 +9,11 @@ h1.text-shadow {
 h1.text-keep-newlines {
     white-space: pre-line;
 }
+
+p {
+    padding-block: 0.5em;
+}
+
+input {
+    padding-block: 0.5em;
+}

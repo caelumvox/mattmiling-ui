@@ -31,7 +31,7 @@ export default function Navigation() {
                                     </MenuButton>
                                 </div>
 
-                                <MenuItems className="absolute right1 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none" aria-orientation="vertical" aria-labelledby="portfolio-menu-button">
+                                <MenuItems className="absolute right1 z-10 mt-2 w-48 origin-top-right rounded-md bg-gray-400 py-1 shadow-lg ring-1 ring-black/5 focus:outline-none" aria-orientation="vertical" aria-labelledby="portfolio-menu-button">
                                     <MenuItem>
                                         <a href="https://blog.mattmiling.com" className="block px-4 py-2 text-lg text-black" role="menuitem" tabIndex={-1} id="user-menu-item-0">blog</a>
                                     </MenuItem>
@@ -43,6 +43,11 @@ export default function Navigation() {
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
                                     <a href="/about" className="px-3 py-2 text-lg font-medium text-white hover:bg-gray-700">about</a>
+                                </div>
+                            </div>
+                            <div className="hidden sm:ml-6 sm:block">
+                                <div className="flex space-x-4">
+                                    <a href="/contact" className="px-3 py-2 text-lg font-medium text-white hover:bg-gray-700">contact</a>
                                 </div>
                             </div>
                         </div> 
